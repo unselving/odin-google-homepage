@@ -1,0 +1,273 @@
+<html>
+<head>
+<style>
+    body{
+        background-color:#fff;
+        font-size:13px;
+        font-family:Arial;
+        font-size:13px;
+    }
+    a{
+        color:#000;
+        opacity:0.75;
+        text-decoration:none;
+
+    }
+    main{
+        text-align:center
+    }
+    .top-navbar{
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100%;
+        padding-top: 16px;
+    }
+    .nav-left{
+        float:left;
+        margin-left:10px;
+    }
+
+    .nav-left div{
+        display:inline-block;
+        padding-top:7px;
+        margin-left:15px;
+    }
+
+    .nav-right{
+        float:right;
+        margin-right:30px;
+    }
+
+    .nav-right div{
+        display:inline-block;
+        margin-left:12px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color:#000;
+    }
+
+    .sign-in-btn{
+        display:inline-block;
+        background-color: #1a73e8;
+        text-align:center;
+        border-radius:2px;
+        padding:7px 13px 8px;
+        margin-left:15px;
+    }
+    .sign-in-btn a{
+        color:white;
+        font-weight:bold;
+        opacity:1;
+        margin-left:0px;
+
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color:#000;
+    }
+    #logo{
+        padding-top:148px;
+    }
+    #search-box{
+        display:block;
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        border:1px solid #dfe1e5;
+        width:482px;
+        height:44px;
+        border-radius:24px;
+        margin-top:27px;
+        z-index:0;
+    }
+    #search-box:hover{
+        box-shadow: 0 0px 7px #dfe1e5;
+    }
+
+    #search-input{  
+        z-index:900;
+        border:none;
+        height:100%;
+        width:80%;
+        font-size:15;
+        padding:3px 0px;
+        display:inline-block;
+    }
+    #search-input:focus{
+        outline:none;
+    }
+
+    #buttons-bit{
+        position:relative;
+        top:30px;
+        left:0px;
+        text-align:center;
+        width:100%;
+        
+    }
+    #buttons{
+        position:relative;
+        left:5px;
+    }
+
+    #buttons div{
+        display:inline-block;
+        background-color: #f2f2f2;
+        padding:10px 18px;  
+        border-radius:4px;
+        margin-right:6px;
+        font-size:14px;
+        position:relative;
+        
+    }
+    #buttons div:hover{
+        border:1px solid;
+
+    }
+    #buttons a:hover{
+        text-decoration:none;
+    }
+    .footer-nav-bar{
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        font-size:14px;
+        padding:14px 0px 12px;
+        background-color:#f2f2f2;
+    }
+    .footer-nav-left {
+        float:left;
+        margin-left:30px;
+    }
+
+    .footer-nav-left div{
+        display:inline-block;
+        margin-right:23px;
+    }
+
+    .footer-nav-right {
+        float:right;
+        margin-right:30px;
+    }
+
+    .footer-nav-right div{
+        display:inline-block;
+        margin-left:23px;
+    }
+    @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v88/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+    }
+
+    .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+/* Rules for sizing the icon. */
+    .material-icons.md-20 { font-size: 20px; }
+    .material-icons.md-24 { font-size: 24px; }
+    .material-icons.md-36 { font-size: 36px; }
+    .material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+    .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+    .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+    .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+    .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+    
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="top-navbar">
+                <div class="nav-left">
+                    <div>
+                        <a href="#">About</a>
+                    </div>
+                    <div>
+                        <a href="#">Store</a>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div><a href="#">Gmail</a></div>
+                    <div><a href="#">Images</a></div>
+                    <div><a href="#">
+                        <span class="material-icons" style="vertical-align:middle; padding:2px 2px 4px;">apps</span>
+                    </a></div>                   
+                    <div class="sign-in-btn">
+                        <a href="#">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <div id="logo"></div>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <div id="search-box">
+        <span class="material-icons md-dark md-20" style="float:left; position:relative; left:14px; top:28%;">
+            search
+            </span>
+        <form action="/search">
+            <input type="text" id="search-input" autofocus>
+        </form>
+            <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" style="height:24px; position:absolute; right:16px; bottom:10px; z-index:99999;"> 
+    </div>
+    <div id="buttons-bit">
+        <div id="buttons">
+        <div><a>Google Search</a></div>
+       <div> <a>I'm Feeling Lucky</a></div>
+       </div>
+    </div>
+</main>
+<footer>
+    <nav>
+        <div class="footer-nav-bar">
+            <div class="footer-nav-left">
+                <div><a>Advertising</a></div>
+                <div><a>Business</a></div>
+                <div><a>How Search works</a></div>
+            </div>
+            <div class="footer-nav-right">
+                <div><a>Privacy</a></div>
+                <div><a>Terms</a></div>
+                <div><a>Settings</a></div>
+            </div>
+        </div>
+    </nav>
+</footer>
+
+</body>
+</html>
+<!-- footer{
+       position:absolute;
+       left:0;
+       bottom:0;
+       width:100%;
+       background-color:#f2f2f2;
+       font-size:14px;
+       height:40px;
+    }-->
